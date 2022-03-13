@@ -7,10 +7,9 @@
     <title>Practica 4</title>
   </head>
   <body>
-      
     <button onclick="obtieneUbicacion()">Obtener ubicacion</button>
     <div id="mapa">
-      <img src="imagemapa" alt="Imagen de mapa" />
+      <img id="imagenMapa" src="" alt="Imagen de mapa" />
     </div>
 
     <p id="alerta"></p>
@@ -36,7 +35,7 @@
         imagenMapa.src =
           "https://maps.googleapis.com/maps/api/staticmap?center=" +
           coordenadas +
-          "&zoom=18&size=800x600&key=AIzaSyCMrQgga-C5zCuZLTVk2MPVzX7naqKZXZU";
+          "&zoom=18&size=400x400&key=AIzaSyCMrQgga-C5zCuZLTVk2MPVzX7naqKZXZU";
       }
     </script>
   </body>
